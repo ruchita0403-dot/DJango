@@ -1,0 +1,7 @@
+<h1>Count</h1>
+<a href="{% url 'home' %}">go back</a>
+<br>
+{% for a,f in yourdict.items %}
+The frequency of {{a}} -{{f}}
+<br/>
+{% endfor %}
